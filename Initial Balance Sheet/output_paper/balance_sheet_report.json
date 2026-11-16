@@ -1,0 +1,159 @@
+{
+ "options": {
+  "saron_mortgages_to": "RE",
+  "cash_bonds_to": "SF",
+  "money_market_in_K": true,
+  "calibrate_max_months": true,
+  "fallback_max_month": 120
+ },
+ "nominal_cash_flows_mCHF": {
+  "C": 6196.831,
+  "B": 2148.8970844476244,
+  "RP": 21848.94,
+  "RE": 2771.049000000001,
+  "SD": 15552.297000000002,
+  "SF": 3392.095,
+  "K": 11793.060436167501
+ },
+ "book_mCHF": {
+  "C": 6196.831,
+  "B": 2147.196,
+  "RP": 21848.941000000003,
+  "RE": 2771.049,
+  "SD": 15552.296999999999,
+  "SF": 3392.0950000000003,
+  "K": 11386.865
+ },
+ "values_mCHF": {
+  "C": 6196.831,
+  "B": 2046.3668365692122,
+  "RP": 21563.688040085355,
+  "RE": 2766.824333205456,
+  "SD": 15468.339676014119,
+  "SF": 3390.4575771821396,
+  "K": 11498.195972461152,
+  "A": 32573.710209860023,
+  "L": 30356.99322565741,
+  "E": 2216.7169842026124
+ },
+ "shares_of_assets": {
+  "C": 0.19024025694574476,
+  "B": 0.06282265125419392,
+  "RP": 0.6619966807943805,
+  "RE": 0.08494041100568094,
+  "SD": 0.4748719005712733,
+  "SF": 0.10408570455556679,
+  "K": 0.35299006156752327,
+  "E": 0.0680523333056366
+ },
+ "equity_bridge_mCHF": {
+  "book equity": 2561.6,
+  "- excluded assets": -321.735,
+  "+ excluded liabilities": 392.894,
+  "+ (V - book) C": 0.0,
+  "+ (V - book) B": -100.82916343078773,
+  "+ (V - book) RP": -285.25295991464736,
+  "+ (V - book) RE": -4.224666794544191,
+  "- (V - book) SD": 83.95732398588007,
+  "- (V - book) SF": 1.6374228178606245,
+  "- (V - book) K": -111.33097246115176,
+  "= model E0": 2216.7159842026094
+ },
+ "book_equity_mCHF": 2561.6,
+ "CET1_mCHF": 2488.665,
+ "constraints_t0": {
+  "RWA": 10518.751830892252,
+  "E_over_RWA": 0.21073954589292554,
+  "LCR": 1.8977106007555156,
+  "NSFR": 1.5331974776628978,
+  "CMR": 13.143639897713493
+ },
+ "targets": {
+  "RWA": 13742.722,
+  "E_over_RWA": 0.1811,
+  "HQLA": 6168.829,
+  "NO30": 4513.024,
+  "LCR": 1.3669,
+  "ASF": 25481.039,
+  "RSF": 18667.681,
+  "NSFR": 1.365
+ },
+ "IRS_100bp": -0.061888729330274846,
+ "dE_mCHF": {
+  "-150": 210.2722463236678,
+  "-100": 139.6921219027463,
+  "100": -137.18979743713862,
+  "150": -204.6742836733756
+ },
+ "dEVE_tkb_mCHF": {
+  "150": -227.269,
+  "-150": 256.256
+ },
+ "duration_y": {
+  "loans": 3.5277693967630155,
+  "deposits": 1.817363552028972,
+  "B": 7.31399886913145,
+  "K": 4.580908270453925
+ },
+ "repricing_vs_irrbba1": {
+  "fixed_mortgages": {
+   "model": 3.8930221042759974,
+   "irrbba1": 3.9,
+   "last_month": 105,
+   "how": "calibrated"
+  },
+  "customer_loans": {
+   "model": 1.7274295826155617,
+   "irrbba1": 1.35,
+   "last_month": 61,
+   "how": "closest possible (target needs >5y mean 2.86y)"
+  },
+  "fin_investments": {
+   "model": 8.11084175480125,
+   "irrbba1": 8.34,
+   "last_month": 180,
+   "how": "capped at 180 (target needs 187)"
+  },
+  "customer_term": {
+   "model": 0.7927325305380674,
+   "irrbba1": 0.64,
+   "last_month": 61,
+   "how": "closest possible (target needs >5y mean -0.94y)"
+  },
+  "cash_bonds": {
+   "model": 1.8178329930794164,
+   "irrbba1": 1.59,
+   "last_month": 61,
+   "how": "closest possible (target needs >5y mean -6.03y)"
+  },
+  "due_to_banks": {
+   "model": 0.3378764979533422,
+   "irrbba1": 0.2,
+   "last_month": 61,
+   "how": "closest possible (target needs >5y mean -41.57y)"
+  },
+  "bonds_pfandbrief": {
+   "model": 6.615894816264938,
+   "irrbba1": 6.47,
+   "last_month": null,
+   "how": "exact data (note 13)"
+  },
+  "nmd": {
+   "model": 2.0534786540076206,
+   "irrbba1": 2.0535,
+   "last_month": 120,
+   "how": "A2 1m/10y mix"
+  }
+ },
+ "investment_coupon": 0.00010928849549202901,
+ "nmd_weights": {
+  "1": 0.40398965088845074,
+  "2": 0.0,
+  "12": 0.0,
+  "120": 0.5960103491115493
+ },
+ "monthly_cost_mCHF": {
+  "personnel": 9.4015,
+  "material": 4.910916666666666
+ }
+}

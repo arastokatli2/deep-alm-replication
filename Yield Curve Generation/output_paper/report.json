@@ -1,0 +1,201 @@
+{
+  "file": {
+    "rows_after_cleaning": 7534,
+    "first_date": "1988-01-04",
+    "last_date": "2025-07-31"
+  },
+  "spot_check": {
+    "date": "2022-07-15",
+    "params": {
+      "b0": 0.00725873,
+      "b1": -0.009561380000000001,
+      "b2": -0.0173127,
+      "b3": 0.027174200000000003,
+      "t1": 3.71149,
+      "t2": 7.54675
+    },
+    "yields_pct": {
+      "0.0833333y": -0.2239,
+      "0.5y": -0.1892,
+      "1y": -0.1427,
+      "2y": -0.0393,
+      "5y": 0.2858,
+      "10y": 0.6963,
+      "15y": 0.9105,
+      "20y": 0.9983
+    }
+  },
+  "check_discount": {
+    "max_abs_diff": 1.1102230246251565e-16,
+    "max_rel_diff": 1.3542355899071695e-16
+  },
+  "check_forward_routes": {
+    "max_abs_diff_bp": 0.9501814767787566,
+    "mean_abs_diff_bp": 0.3631575923821761
+  },
+  "check_roundtrip_bp": 9.992007221626409e-12,
+  "history": {
+    "daily_observations": 4408,
+    "weekly_observations": 916,
+    "first": "2005-01-05",
+    "last": "2022-07-20",
+    "forward_curve_shape": [
+      916,
+      240
+    ]
+  },
+  "fit_sqrt": {
+    "eigenvalues": [
+      0.007978869852096959,
+      0.0013751663775659001,
+      0.0008932629856129618
+    ],
+    "sqrt_eigenvalues": [
+      0.08932451988170415,
+      0.03708323580225841,
+      0.02988750551004486
+    ],
+    "explained_variance": [
+      0.7172,
+      0.1236,
+      0.0803
+    ],
+    "V_min": -0.002798576975836552,
+    "V_max": 0.00652757637751859,
+    "V_abs_max": 0.00652757637751859
+  },
+  "fit_eigenvalue": {
+    "eigenvalues": [
+      0.007978869852096959,
+      0.0013751663775659001,
+      0.0008932629856129618
+    ],
+    "sqrt_eigenvalues": [
+      0.08932451988170415,
+      0.03708323580225841,
+      0.02988750551004486
+    ],
+    "explained_variance": [
+      0.7172,
+      0.1236,
+      0.0803
+    ],
+    "V_min": -0.00010378028990571842,
+    "V_max": 0.000583072625913002,
+    "V_abs_max": 0.000583072625913002
+  },
+  "figure3_axis_published": {
+    "low": -0.005,
+    "high": 0.008
+  },
+  "initial_curve": {
+    "date": "2022-07-15",
+    "simulator_vs_snb_gap_bp": 3.469446951953614e-14,
+    "y_1m_pct": -0.2239,
+    "y_1y_pct": -0.1427,
+    "y_5y_pct": 0.2858,
+    "y_10y_pct": 0.6963,
+    "y_15y_pct": 0.9105
+  },
+  "term_premium": {
+    "phi": [
+      -0.1766,
+      -0.3622,
+      -0.3369
+    ],
+    "calibration_max_error_bp": 2.42,
+    "calibration_mean_error_bp": 0.47,
+    "expected_slope_5y_pp": {
+      "today": 1.134,
+      "paper_P_eq_Q": 0.556,
+      "term_premium": 1.151
+    }
+  },
+  "sim_sqrt": {
+    "curve_shape_T": {
+      "share_inverted": 0.2843,
+      "slope_mean_pp": 0.554,
+      "slope_sd_pp": 0.938
+    },
+    "short_rate_t0_pct": -0.2239,
+    "share_above_minus1pct": 0.9403,
+    "share_rising": 0.8193,
+    "short_T_pct": {
+      "q05": -1.093,
+      "q25": 0.036,
+      "median": 0.855,
+      "q75": 1.691,
+      "q95": 2.838
+    },
+    "mean_curve_T_pct": {
+      "1m": 0.864,
+      "5y": 1.221,
+      "15y": 1.419
+    }
+  },
+  "sim_eigenvalue": {
+    "curve_shape_T": {
+      "share_inverted": 0.0,
+      "slope_mean_pp": 0.432,
+      "slope_sd_pp": 0.052
+    },
+    "short_rate_t0_pct": -0.2239,
+    "share_above_minus1pct": 1.0,
+    "share_rising": 1.0,
+    "short_T_pct": {
+      "q05": 0.667,
+      "q25": 0.75,
+      "median": 0.808,
+      "q75": 0.867,
+      "q95": 0.95
+    },
+    "mean_curve_T_pct": {
+      "1m": 0.808,
+      "5y": 1.11,
+      "15y": 1.239
+    }
+  },
+  "sim_term_premium": {
+    "curve_shape_T": {
+      "share_inverted": 0.1128,
+      "slope_mean_pp": 1.15,
+      "slope_sd_pp": 0.938
+    },
+    "short_rate_t0_pct": -0.2239,
+    "share_above_minus1pct": 0.738,
+    "share_rising": 0.4968,
+    "short_T_pct": {
+      "q05": -2.179,
+      "q25": -1.049,
+      "median": -0.23,
+      "q75": 0.605,
+      "q95": 1.752
+    },
+    "mean_curve_T_pct": {
+      "1m": -0.222,
+      "5y": 0.325,
+      "15y": 0.929
+    }
+  },
+  "drift_variants": {
+    "max_abs_diff": 1.8924616376433153e-06,
+    "max_abs_trapezoid": 0.0007051562722999819,
+    "relative": 0.002683747861265906
+  },
+  "curve_features": {
+    "fitted_on_variant": "sqrt",
+    "fitted_on_curves": 61000,
+    "feature_seed": 1,
+    "explained_variance": [
+      0.94008,
+      0.05417,
+      0.00574
+    ],
+    "explained_total": 0.99998,
+    "validation_reconstruction_bp": {
+      "mean": 0.249,
+      "p99": 1.343,
+      "max": 8.143
+    }
+  }
+}

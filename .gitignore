@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.DS_Store
+.pytest_cache/
+webapp/runs/
+webapp/networks/
+*.pkl
+*.csv
+Literatures/
+*.zip
